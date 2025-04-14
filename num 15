@@ -1,0 +1,13 @@
+# Write code below 💖
+
+height = 120;
+credits = 10;
+
+if height > 137 and credits >= 10:
+  print("enjoy the ride!")
+elif height < 137 and credits >= 10:
+  print("youre not tall enough to ride")
+elif credits < 10  and height > 137:
+  print("you dont have enough credits")
+else:
+  print("you dont meet either of the requirments")
